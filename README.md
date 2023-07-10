@@ -16,7 +16,7 @@
 * Nice utilites:
 `tree micro bat most ripgrep tldr trash-cli`
 * Fun:
-`hello cowsay sl cmatrix toilet figlet lolcat jp2a linuxlogo`
+`hello cowsay sl cmatrix toilet figlet lolcat jp2a linuxlogo nyancat`
 * WSLfetch+:
 `gnupg2 apt-transport-https wslu`
 
