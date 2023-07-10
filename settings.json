@@ -53,14 +53,15 @@
                 "size": 14.0,
                 "weight": "normal"
             },
-            "opacity": 95,
+            "opacity": 85,
             "padding": "14",
-            "useAcrylic": true
+            "useAcrylic": true,
+            "useAtlasEngine": true
         },
         "list": 
         [
             {
-                "colorScheme": "OneDark",
+                "colorScheme": "One Half Dark",
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -nologo",
                 "experimental.retroTerminalEffect": false,
                 "font": 
@@ -109,6 +110,7 @@
                 },
                 "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
                 "hidden": false,
+                "icon": "C:\\Portable Programs\\icons\\ubuntu.png",
                 "name": "Ubuntu-20.04",
                 "source": "Windows.Terminal.Wsl"
             },
@@ -121,14 +123,19 @@
             {
                 "commandline": "C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\mysqlsh.exe --uri root@localhost:3306 --sql",
                 "guid": "{ff9f902e-2b94-42b2-83c8-7ef0223594d4}",
-                "hidden": false,
-                "icon": "C:\\Users\\drago\\Documents\\Icons\\MySQL.ico",
+                "hidden": true,
+                "icon": "C:\\Portable Programs\\icons\\mysql.png",
                 "name": "MySQL Shell"
             },
             {
-                "colorScheme": "One Half Dark",
+                "colorScheme": "OneDark",
+                "font": 
+                {
+                    "face": "JetBrainsMono Nerd Font"
+                },
                 "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
                 "hidden": false,
+                "icon": "C:\\Portable Programs\\icons\\debian.png",
                 "name": "Debian",
                 "source": "Windows.Terminal.Wsl"
             }
