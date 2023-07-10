@@ -28,3 +28,8 @@ git config --global alias.gl 'log --graph --all --date=format-local:"%d-%b %H:%M
 ```
 git config --global alias.gl 'log --graph --all --date=format-local:\"%d-%b %H:%M\" --format=format:\"%C(bold blue)%h%C(bold yellow)%d %Creset| %C(bold green)%ad %Creset- %C(red)%an%Creset %n%w(80,4,4)%B\"'
 ```
+
+Acknowledgements:
+* [Starship.rs - Pastel Powerline Preset](https://starship.rs/presets/pastel-powerline.html)
+* [Pretty Git branch graphs (StackOverFlow)](https://stackoverflow.com/questions/1057564/pretty-git-branch-graphs)
+* [How to change Git log date formats (StackOverFlow)](https://stackoverflow.com/questions/7853332/how-to-change-git-log-date-formats)
