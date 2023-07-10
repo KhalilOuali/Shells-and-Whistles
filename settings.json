@@ -33,6 +33,12 @@
     "copyOnSelect": false,
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
     "experimental.rendering.forceFullRepaint": true,
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
     "profiles": 
     {
         "defaults": 
@@ -44,7 +50,7 @@
             "font": 
             {
                 "face": "Roboto Mono",
-                "size": 14,
+                "size": 14.0,
                 "weight": "normal"
             },
             "opacity": 95,
@@ -54,11 +60,12 @@
         "list": 
         [
             {
-                "colorScheme": "Flatland",
-                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "colorScheme": "OneDark",
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -nologo",
+                "experimental.retroTerminalEffect": false,
                 "font": 
                 {
-                    "face": "Cascadia Mono"
+                    "face": "FiraCode Nerd Font"
                 },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
@@ -98,7 +105,7 @@
                 "font": 
                 {
                     "face": "Ubuntu Mono",
-                    "size": 18
+                    "size": 18.0
                 },
                 "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
                 "hidden": false,
@@ -117,6 +124,13 @@
                 "hidden": false,
                 "icon": "C:\\Users\\drago\\Documents\\Icons\\MySQL.ico",
                 "name": "MySQL Shell"
+            },
+            {
+                "colorScheme": "One Half Dark",
+                "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
+                "hidden": false,
+                "name": "Debian",
+                "source": "Windows.Terminal.Wsl"
             }
         ]
     },
@@ -167,6 +181,29 @@
             "selectionBackground": "#FFFFFF",
             "white": "#CCCCCC",
             "yellow": "#C19C00"
+        },
+        {
+            "background": "#161C2B",
+            "black": "#141D2B",
+            "blue": "#2E6CFF",
+            "brightBlack": "#767676",
+            "brightBlue": "#5CB2FF",
+            "brightCyan": "#5CECC6",
+            "brightGreen": "#C5F467",
+            "brightPurple": "#CF8DFB",
+            "brightRed": "#FF8484",
+            "brightWhite": "#D5DAFF",
+            "brightYellow": "#FFCC5C",
+            "cursorColor": "#C5D1EB",
+            "cyan": "#2DE2B2",
+            "foreground": "#A4B1CD",
+            "green": "#9FEF00",
+            "name": "Cyber Cube",
+            "purple": "#9F00FF",
+            "red": "#FF3E3E",
+            "selectionBackground": "#C5D1EB",
+            "white": "#D5E0FF",
+            "yellow": "#FFAF00"
         },
         {
             "background": "#1D1F21",
@@ -236,6 +273,29 @@
             "selectionBackground": "#FFFFFF",
             "white": "#FAFAFA",
             "yellow": "#C18301"
+        },
+        {
+            "background": "#1E2127",
+            "black": "#1E2127",
+            "blue": "#61AFEF",
+            "brightBlack": "#5C6370",
+            "brightBlue": "#61AFEF",
+            "brightCyan": "#56B6C2",
+            "brightGreen": "#98C379",
+            "brightPurple": "#C678DD",
+            "brightRed": "#E06C75",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#D19A66",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#56B6C2",
+            "foreground": "#ABB2BF",
+            "green": "#98C379",
+            "name": "OneDark",
+            "purple": "#C678DD",
+            "red": "#E06C75",
+            "selectionBackground": "#FFFFFF",
+            "white": "#ABB2BF",
+            "yellow": "#D19A66"
         },
         {
             "background": "#002B36",
@@ -377,5 +437,50 @@
         }
     ],
     "tabWidthMode": "equal",
+    "themes": 
+    [
+        {
+            "name": "legacyDark",
+            "tab": 
+            {
+                "background": null,
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "window": 
+            {
+                "applicationTheme": "dark",
+                "useMica": false
+            }
+        },
+        {
+            "name": "legacyLight",
+            "tab": 
+            {
+                "background": null,
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "window": 
+            {
+                "applicationTheme": "light",
+                "useMica": false
+            }
+        },
+        {
+            "name": "legacySystem",
+            "tab": 
+            {
+                "background": null,
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "window": 
+            {
+                "applicationTheme": "system",
+                "useMica": false
+            }
+        }
+    ],
     "useAcrylicInTabRow": true
 }
