@@ -46,4 +46,4 @@ git config --global alias.gl 'log --graph --all --date=format-local:\"%d-%b %H:%
 * [Starship.rs - Pastel Powerline Preset](https://starship.rs/presets/pastel-powerline.html)
 * [Pretty Git branch graphs (StackOverFlow)](https://stackoverflow.com/questions/1057564/pretty-git-branch-graphs)
 * [How to change Git log date formats (StackOverFlow)](https://stackoverflow.com/questions/7853332/how-to-change-git-log-date-formats)
-* [Ascii Art Archive](https://www.asciiart.eu/animals/cats) (Kitty art by David Palmer)
+* [Ascii Art Archive](https://www.asciiart.eu/animals/cats) (Kitty art by Blazej Kozlowski)
