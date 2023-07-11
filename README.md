@@ -1,4 +1,4 @@
-<h1 align="center">🔔 Bells and Whistles 😗</h1>
+<h1 align="center">🐚 Shells and Whistles 🥳</h1>
 
 <h3 align="center">a screen worth miring</h3>
 
