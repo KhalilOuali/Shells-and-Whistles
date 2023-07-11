@@ -9,6 +9,9 @@
 ### A couple of themes
 * **OneDark**, **OneHalfDark**, and more @ [Windows Terminal Themes](https://windowsterminalthemes.dev/)
 
+### A couple of fonts
+* **JetBrainsMono NF**, **FiraCode NF**, and more @ [Nerd Fonts](https://www.nerdfonts.com/#home)
+
 ## 📦 Some apt packages
 
 * Essentials:
