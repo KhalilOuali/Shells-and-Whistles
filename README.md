@@ -4,7 +4,9 @@
 
 <h2 align="center">Starship @ Bash & PowerShell / Windows Terminal</h2>
 
-![Windows Terminal screenshot](https://github.com/KhalilOuali/KO-Terminal-Config/assets/68998620/f42a45b4-f638-4a02-93fc-353b2def07bb)
+<p align="center">
+  <img src="https://github.com/KhalilOuali/Shells-and-Whistles/assets/68998620/8f2d0c55-db39-4239-85a9-4a73fdc5ec38">
+</p>
 
 ### A couple of themes
 * **OneDark**, **OneHalfDark**, and more @ [Windows Terminal Themes](https://windowsterminalthemes.dev/)
@@ -26,7 +28,7 @@
 ## 📃 A pretty Git log alias
 
 <p align="center">
-  <img src="https://github.com/KhalilOuali/KO-Terminal-Config/assets/68998620/aee8a761-8d23-494c-8596-857ca10bb770" width="70%" style="text-align:center">
+  <img src="https://github.com/KhalilOuali/Shells-and-Whistles/assets/68998620/18d723a6-5539-440a-9925-6129bf8c1211" width="70%">
 </p>
 
 * Linux:
