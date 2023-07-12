@@ -4,6 +4,10 @@
     "actions": 
     [
         {
+            "command": "toggleShaderEffects",
+            "keys": "ctrl+alt+minus"
+        },
+        {
             "command": 
             {
                 "action": "copy",
@@ -53,6 +57,7 @@
                 "size": 14.0,
                 "weight": "normal"
             },
+            "intenseTextStyle": "bold",
             "opacity": 85,
             "padding": "14",
             "useAcrylic": true,
@@ -444,6 +449,7 @@
         }
     ],
     "tabWidthMode": "equal",
+    "theme": "system",
     "themes": 
     [
         {
