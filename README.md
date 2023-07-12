@@ -28,18 +28,21 @@
 ## 📃 A pretty Git log alias
 
 <p align="center">
-  <img src="https://github.com/KhalilOuali/Shells-and-Whistles/assets/68998620/18d723a6-5539-440a-9925-6129bf8c1211" width="70%">
+  <img src="https://github.com/KhalilOuali/Shells-and-Whistles/assets/68998620/5b3ce67f-4fc1-4d70-aed1-035d95150fbf" width="70%">
 </p>
 
-* Linux:
+* Normal:
+
 ```
-git config --global alias.gl 'log --graph --all --date=format-local:"%d-%b %H:%M" --format=format:"%C(bold blue)%h%C(bold yellow)%d %Creset| %C(bold green)%ad %Creset- %C(red)%an%Creset %n%w(80,4,4)%B"'
+git config --global alias.gl 'log --graph --all --date=format-local:"%d-%b %H:%M" --format=tformat:"%C(bold blue)%h%C(bold yellow)%d %Creset| %C(bold green)%ad %Creset- %C(red)%an %n%w(0,2,4)%C(italic bold white)%s %n%Creset%b"'
 ```
 
-* Windows:
+* Long (full SHA-1):
+
 ```
-git config --global alias.gl 'log --graph --all --date=format-local:\"%d-%b %H:%M\" --format=format:\"%C(bold blue)%h%C(bold yellow)%d %Creset| %C(bold green)%ad %Creset- %C(red)%an%Creset %n%w(80,4,4)%B\"'
+git config --global alias.gll 'log --graph --all --date=format-local:"%d-%b %H:%M" --format=tformat:"%C(bold blue)%h%C(bold yellow)%d %Creset| %C(bold green)%ad %Creset- %C(red)%an %n%C(magenta)%H %n%w(0,2,4)%C(italic bold white)%s %n%Creset%b"'
 ```
+
 
 ## 🙏 Special thanks
 
