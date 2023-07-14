@@ -17,7 +17,7 @@
 ## 📦 Some apt packages
 
 * Essentials:
-`man curl gcc wget git gh`
+`man curl get gcc gdb git gh`
 * Nice utilites:
 `tree micro bat most ripgrep tldr trash-cli`
 * Fun:
