@@ -31,6 +31,18 @@
                 "splitMode": "duplicate"
             },
             "keys": "alt+shift+d"
+        },
+        {
+            "command": "unbound",
+            "keys": "alt+enter"
+        },
+        {
+            "command": 
+            {
+                "action": "sendInput",
+                "input": "\u0017"
+            },
+            "keys": "ctrl+backspace"
         }
     ],
     "copyFormatting": "none",
@@ -66,12 +78,12 @@
         "list": 
         [
             {
-                "colorScheme": "One Half Dark",
+                "colorScheme": "OneDark",
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -nologo",
                 "experimental.retroTerminalEffect": false,
                 "font": 
                 {
-                    "face": "FiraCode Nerd Font"
+                    "face": "FiraCode Nerd Font Mono"
                 },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
@@ -133,10 +145,11 @@
                 "name": "MySQL Shell"
             },
             {
-                "colorScheme": "OneDark",
+                "backgroundImage": null,
+                "colorScheme": "One Half Dark",
                 "font": 
                 {
-                    "face": "JetBrainsMono Nerd Font"
+                    "face": "JetBrainsMono Nerd Font Mono"
                 },
                 "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
                 "hidden": false,
@@ -450,50 +463,6 @@
     ],
     "tabWidthMode": "equal",
     "theme": "system",
-    "themes": 
-    [
-        {
-            "name": "legacyDark",
-            "tab": 
-            {
-                "background": null,
-                "showCloseButton": "always",
-                "unfocusedBackground": null
-            },
-            "window": 
-            {
-                "applicationTheme": "dark",
-                "useMica": false
-            }
-        },
-        {
-            "name": "legacyLight",
-            "tab": 
-            {
-                "background": null,
-                "showCloseButton": "always",
-                "unfocusedBackground": null
-            },
-            "window": 
-            {
-                "applicationTheme": "light",
-                "useMica": false
-            }
-        },
-        {
-            "name": "legacySystem",
-            "tab": 
-            {
-                "background": null,
-                "showCloseButton": "always",
-                "unfocusedBackground": null
-            },
-            "window": 
-            {
-                "applicationTheme": "system",
-                "useMica": false
-            }
-        }
-    ],
+    "themes": [],
     "useAcrylicInTabRow": true
 }
