@@ -1,16 +1,16 @@
 format = """
-[](#61afef)\
+[](bright-white)\
 $os\
-[](fg:#61afef bg:#e5c07b)\
+[](fg:bright-white bg:blue)\
 $username\
-[](fg:#e5c07b bg:#be5046)\
+[](fg:blue bg:red)\
 $cmd_duration\
-[](fg:#be5046 bg:#89ca78)\
+[](fg:red bg:green)\
 $directory\
-[](fg:#89ca78 bg:#d55fde)\
+[](fg:green bg:purple)\
 $git_branch\
 $git_status\
-[](fg:#d55fde bg:#abb2bf)\
+[](fg:purple bg:yellow)\
 $c\
 $elixir\
 $elm\
@@ -23,43 +23,41 @@ $nodejs\
 $nim\
 $rust\
 $scala\
-[](fg:#abb2bf bg:#2bbac5)\
+[](fg:yellow bg:cyan)\
 $docker_context\
-[ ](fg:#2bbac5)\
+[](fg:cyan bg:bright-white)\
+$shell\
+[ ](fg:bright-white)\
 """
 
-# Disable the blank line at the start of the prompt
 # add_newline = false
 
-# represents the current operating system
 [os.symbols]
 Debian = " "
+Ubuntu = " "
 Windows = " "
+Unknown = " "
 [os]
-style = "bg:#61afef fg:#2c2c2c"
+style = "bg:bright-white fg:black"
 disabled = false
 
-# You can also replace your username with a neat symbol like   or disable this
-# and use the os module below
 [username]
 show_always = true
-style_user = "bg:#e5c07b fg:#2c2c2c"
-style_root = "bg:#e5c07b fg:#ef596f"
+style_user = "bg:blue fg:black"
+style_root = "bg:blue fg:bright-red"
 format = '[ $user ]($style)'
 disabled = false
 
 [cmd_duration]
-style = "bg:#be5046 fg:#ffffff"
+style = "bg:red fg:black"
 format = '[ 󰥔 $duration ]($style)'
 
 [directory]
-style = "bg:#89ca78 fg:#2c2c2c"
+style = "bg:green fg:black"
 format = "[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
 
-# Here is how you can shorten some long paths by text replacement
-# similar to mapped_locations in Oh My Posh:
 [directory.substitutions]
 "Documents" = "󰈙"
 "Downloads" = " "
@@ -73,73 +71,85 @@ truncation_symbol = "…/"
 
 [git_branch]
 symbol = ""
-style = "bg:#d55fde fg:#2c2c2c"
+style = "bg:purple fg:black"
 format = '[ $symbol $branch ]($style)'
 
 [git_status]
-style = "bg:#d55fde fg:#2c2c2c"
+style = "bg:purple fg:black"
 format = '[$all_status$ahead_behind ]($style)'
 
 [c]
 symbol = " "
-style = "bg:#abb2bf fg:#2c2c2c"
+style = "bg:yellow fg:black"
 format = '[ $symbol($version) ]($style)'
 
 [elixir]
 symbol = " "
-style = "bg:#abb2bf fg:#2c2c2c"
+style = "bg:yellow fg:black"
 format = '[ $symbol($version) ]($style)'
 
 [elm]
 symbol = " "
-style = "bg:#abb2bf fg:#2c2c2c"
+style = "bg:yellow fg:black"
 format = '[ $symbol($version) ]($style)'
 
 [golang]
 symbol = " "
-style = "bg:#abb2bf fg:#2c2c2c"
+style = "bg:yellow fg:black"
 format = '[ $symbol($version) ]($style)'
 
 [gradle]
-style = "bg:#abb2bf fg:#2c2c2c"
+style = "bg:yellow fg:black"
 format = '[ $symbol($version) ]($style)'
 
 [haskell]
 symbol = " "
-style = "bg:#abb2bf fg:#2c2c2c"
+style = "bg:yellow fg:black"
 format = '[ $symbol($version) ]($style)'
 
 [java]
 symbol = " "
-style = "bg:#abb2bf fg:#2c2c2c"
+style = "bg:yellow fg:black"
 format = '[ $symbol($version) ]($style)'
 
 [julia]
 symbol = " "
-style = "bg:#abb2bf fg:#2c2c2c"
+style = "bg:yellow fg:black"
 format = '[ $symbol($version) ]($style)'
 
 [nodejs]
 symbol = " "
-style = "bg:#abb2bf fg:#2c2c2c"
+style = "bg:yellow fg:black"
 format = '[ $symbol($version) ]($style)'
 
 [nim]
 symbol = "󰆥 "
-style = "bg:#abb2bf fg:#2c2c2c"
+style = "bg:yellow fg:black"
 format = '[ $symbol($version) ]($style)'
 
 [rust]
 symbol = " "
-style = "bg:#abb2bf fg:#2c2c2c"
+style = "bg:yellow fg:black"
 format = '[ $symbol($version) ]($style)'
 
 [scala]
 symbol = " "
-style = "bg:#abb2bf fg:#2c2c2c"
+style = "bg:yellow fg:black"
 format = '[ $symbol($version) ]($style)'
 
 [docker_context]
 symbol = " "
-style = "bg:#2bbac5"
+style = "bg:cyan"
 format = '[ $symbol$context ]($style) $path'
+
+[shell]
+cmd_indicator = " "
+bash_indicator = " "
+fish_indicator = "󰈺 "
+powershell_indicator = "󰨊 "  
+zsh_indicator = "󰬡 "
+nu_indicator = "󰬕 "
+unknown_indicator = "? "
+format = '[ $indicator]($style)'
+style = "bg:bright-white fg:black"
+disabled = false
