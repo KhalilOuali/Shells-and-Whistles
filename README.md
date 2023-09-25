@@ -39,7 +39,7 @@ git config --global alias.gl 'log --graph --all --date=format-local:"%d-%b %H:%M
 git config --global alias.gll 'log --graph --all --date=format-local:"%d-%b %H:%M" --format=tformat:"%C(bold blue)%h%C(bold yellow)%d %Creset| %C(bold green)%ad %Creset- %C(red)%an %n%C(magenta)%H %n%w(0,2,4)%C(italic bold white)%s %n%Creset%b"'
 ```
 
-> In windows, you need to escape the double quotes (replace " with \").
+> In windows, you need to escape the double quotes (replace " with \\").
 
 ## 🙏 Special thanks
 
