@@ -13,7 +13,7 @@
 ## 📦 Some cool programs
 
 * Essentials:
-`man curl get gcc gdb git gh openjdk-17-jdk pipx`
+`man curl wget gcc gdb git gh openjdk-17-jdk pipx`
 * Nice utilites:
 `nala tree micro bat most ripgrep tldr trash-cli` `fdfind*` [`broot`](https://packages.azlux.fr/debian/pool/main/b/broot/broot_1.24.2_amd64.deb) [`zoxide`](https://github.com/ajeetdsouza/zoxide#installation)
 * Fun commands:
